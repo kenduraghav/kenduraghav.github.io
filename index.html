@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghavendran S - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.95em;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .job-date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .company {
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .skill-category h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .skill-category p {
+            color: #555;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .degree {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .university {
+            color: #3498db;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .contact-info a {
+                color: #333;
+            }
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+            .job-date {
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Raghavendran S</h1>
+            <p class="tagline">Senior Staff Engineer | Java 21 • Spring Boot 3 • React • AWS Certified</p>
+            <div class="contact-info">
+                <span>📧 kenduraghav@gmail.com</span>
+                <span><a href="https://www.linkedin.com/in/raghavendran-karthik/" target="_blank">LinkedIn</a></span>
+                <span><a href="https://github.com/kenduraghav" target="_blank">GitHub</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>Java developer with 14 years of experience specializing in Java 21, Spring Boot 3, and React. AWS Certified Developer Associate skilled in building RESTful APIs, optimizing application performance, and integrating third-party services. Proven track record delivering enterprise applications across travel, hospitality, and business domains.</p>
+            <p style="margin-top: 10px;">Passionate about clean code and mentoring team members. Currently exploring Docker containerization, system design patterns, Python programming, and AI development to stay at the forefront of modern software engineering.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Senior Staff Engineer</span>
+                    <span class="job-date">Sep 2025 - Present</span>
+                </div>
+                <p class="company">Altimetrik India Pvt Ltd | India</p>
+                <ul>
+                    <li>Developing a full-stack application for a fintech client using Java 21, Spring Boot 3, and React to streamline project management and reduce manual work</li>
+                    <li>Implementing CI/CD pipelines to ensure smooth deployment and delivery cycles</li>
+                    <li>Designing and building RESTful APIs for seamless integration</li>
+                    <li>Owning end-to-end development from requirements gathering to deployment</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Senior Application Consultant</span>
+                    <span class="job-date">May 2023 - May 2025</span>
+                </div>
+                <p class="company">Housing & Development Board | Singapore</p>
+                <ul>
+                    <li>Maintained and optimized Java 8/Jakarta EE applications for public sector services</li>
+                    <li>Modernized legacy systems by implementing RESTful web services architecture</li>
+                    <li>Fixed 20+ critical security vulnerabilities (CSRF, XSS) identified through Fortify scanning</li>
+                    <li>Developed technical documentation and test cases for quality assurance</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Senior Java Developer</span>
+                    <span class="job-date">Nov 2022 - Apr 2023</span>
+                </div>
+                <p class="company">Sopra Steria Asia Pvt Ltd | Singapore</p>
+                <ul>
+                    <li>Contributed to bug fixes and feature development in a microservices architecture using Java, IBM MQ, Docker, and Kubernetes</li>
+                    <li>Worked within an Agile team, submitting code through GitLab merge requests and supporting CI/CD pipelines</li>
+                    <li>Supported deployments across development, testing, and production environments</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Java Developer</span>
+                    <span class="job-date">Feb 2021 - Nov 2022</span>
+                </div>
+                <p class="company">NCS Group | Singapore</p>
+                <ul>
+                    <li>Automated file transfer process using AWS S3, Lambda, and secure FTP, eliminating manual intervention</li>
+                    <li>Migrated legacy applications to AWS Lambda serverless architecture</li>
+                    <li>Developed prototypes to optimize system efficiency</li>
+                    <li>Collaborated with cross-functional teams on project delivery</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Software Engineer</span>
+                    <span class="job-date">Aug 2019 - Jan 2021</span>
+                </div>
+                <p class="company">Housing & Development Board | Singapore</p>
+                <ul>
+                    <li>Developed RESTful web services using Java 8, Jakarta EE, and JAX-RS for public sector applications</li>
+                    <li>Handled project migration, maintenance, and bug fixes</li>
+                    <li>Created technical documentation and test cases</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Specialist</span>
+                    <span class="job-date">Nov 2017 - Aug 2019</span>
+                </div>
+                <p class="company">Hitachi Solutions India Pvt Ltd | Chennai</p>
+                <ul>
+                    <li>Migrated secure search platform from Apache Solr 4.3 to 5.x, implementing API changes while maintaining backward compatibility</li>
+                    <li>Developed front-end components using React.js and TypeScript for Hitachi's GIS applications</li>
+                    <li>Built dynamic user interfaces by integrating with Hitachi GIS APIs</li>
+                    <li>Collaborated with cross-functional teams to improve development workflows and code quality</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Senior Software Developer</span>
+                    <span class="job-date">Mar 2014 - Aug 2017</span>
+                </div>
+                <p class="company">Convergent Technology Solutions | Chennai</p>
+                <p style="font-style: italic; color: #7f8c8d; margin-bottom: 10px;">Promoted from Software Developer</p>
+                <ul>
+                    <li>Developed travel and hotel booking applications integrating with GTA, Sabre APIs, and major payment gateways</li>
+                    <li>Built visa processing applications using Java, Spring, Hibernate, JSF, and PrimeFaces</li>
+                    <li>Developed RESTful web services and Spring Boot applications for internal initiatives</li>
+                    <li>Contributed to performance improvements and streamlined development processes</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Junior Programmer</span>
+                    <span class="job-date">Dec 2011 - Mar 2014</span>
+                </div>
+                <p class="company">Information Dynamics India Pvt Ltd | Chennai</p>
+                <ul>
+                    <li>Contributed to shipping logistics applications for Dubai clients using Java, Struts2, Spring, and Hibernate</li>
+                    <li>Implemented bug fixes and new features based on client requirements</li>
+                    <li>Supported release cycles and deployment processes</li>
+                    <li>Received Best Employee Award for successful project delivery</li>
+                    <li>Built foundational skills in enterprise Java development</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <p>Java 21, Java 8, Spring Boot 3, Jakarta EE, JAX-RS, Hibernate, RESTful APIs</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <p>React, TypeScript, JavaScript, HTML5, CSS3</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS (Lambda, S3), Docker, Kubernetes, CI/CD, GitLab</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Databases</h3>
+                    <p>Apache Solr, IBM MQ, Git, Fortify, Microservices</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <div class="education-item">
+                <p class="degree">AWS Certified Developer Associate (DVA-C02)</p>
+                <p class="university"><a href="https://www.credly.com/badges/76d86d35-ccbe-4750-993f-9e67f2e4a523" target="_blank">Amazon Web Services</a></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Awards</h2>
+            <div class="education-item">
+                <p class="degree">Best Employee Award</p>
+                <p class="university">Convergent Technology Solutions | 2013</p>
+                <p>For successful delivery of a shipping logistics project for Dubai clients</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <p class="degree">B.E Computer Science</p>
+                <p class="university">Anna University | 2009</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
