@@ -149,6 +149,7 @@
         }
 
         /* Print styles */
+   /* Print styles */
         @media print {
             body {
                 background: white;
@@ -156,10 +157,42 @@
             }
             .container {
                 box-shadow: none;
-                padding: 20px;
+                padding: 10px;
+                max-width: 100%;
             }
             .contact-info a {
                 color: #333;
+            }
+            header {
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+            }
+            section {
+                margin-bottom: 20px;
+                page-break-inside: avoid;
+            }
+            .job {
+                margin-bottom: 15px;
+                page-break-inside: avoid;
+            }
+            h1 {
+                font-size: 2em;
+                margin-bottom: 5px;
+            }
+            h2 {
+                font-size: 1.4em;
+                margin-bottom: 10px;
+                padding-bottom: 5px;
+            }
+            .tagline {
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+            li {
+                margin-bottom: 5px;
+            }
+            ul {
+                margin-top: 5px;
             }
         }
 
